@@ -1,7 +1,48 @@
-h1{
-    color: blue;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+   display: flex;
+   list-style: none;
+    }
+
+.logo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    margin-left: 120px;
+}
+.logo>span{
+    color: #FD6E0A;
     
 }
-p{
-    background-color: antiquewhite;
+
+.pase{
+    margin-left: 600px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+ 
+}
+.pase li{
+    margin-left: 30px;
+}
+
+.pase li>button{
+    padding: 19px 39px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #FD6E0A;
+    margin-top: 40px;
+}
+.v{
+    
+    margin-top: 200px;
+    text-decoration: none;
+    border: 10px solid black;
+    color: #FD6E0A;
+    display: inline-block;
+
 }
